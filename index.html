@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="auther" content="">
+    <link rel="icon" href="">
+    <title>Forkify-API</title>
+    <!-- font awesome 6 -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Forkify</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">pizza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">mushrooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">potato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">artichoke</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">avocado</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">blueberry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">lemon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">mango</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row py-2" id="data">
+
+      </div>
+    </div>
+
+    <!-- Button trigger modal -->
+    <!-- <button data-bs-toggle="modal" data-bs-target="#recipeModal">Launch demo modal</button> -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="recipeModal" tabindex="-1" aria-labelledby="recipeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="recipeModalLabel">Recipe Details</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div id="recipeData" class="modal-body">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="assets/js/main.js"></script>
+    <!-- bootstrap 5 -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
